@@ -1,0 +1,160 @@
+.header{
+    width: 37.5rem;
+    height: 23.4rem;
+    background: url("../images/header.png") center no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    box-sizing: border-box;
+    padding: 4.5rem 0 0 2.75rem;
+    width: 37.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.wrap div label{
+    margin-left: 1rem;
+    line-height: 2.5rem;
+}
+.content2{
+    padding-top: 5.2rem;
+}
+.content3{
+    padding-top: 3.5rem;
+}
+.content4{
+    padding-top: 3rem;
+}
+.content5{
+    padding-top: 5.5rem;
+}
+.content6{
+    padding-top: 5.2rem;
+}
+.content7{
+    padding-top: 5.2rem;
+}
+.content1{
+    height: 15.25rem;
+    background: url("../images/con1.png") center no-repeat;
+    background-size: cover;
+}
+.content2{
+    height: 21.85rem;
+    background: url("../images/con2_03.png") center no-repeat;
+    background-size: cover;
+}
+.content3{
+    height: 12.35rem;
+    background: url("../images/con3_04.png") center no-repeat;
+    background-size: cover;
+}
+.content4{
+    height: 19.35rem;
+    background: url("../images/con4_05.png") center no-repeat;
+    background-size: cover;
+}
+.content5{
+    height: 22.45rem;
+    background: url("../images/con5_06.png") center no-repeat;
+    background-size: cover;
+}
+.content6{
+    height: 14.1rem;
+    background: url("../images/con6_07.png") center no-repeat;
+    background-size: cover;
+}
+.content7{
+    height: 16.35rem;
+    background: url("../images/con7_08.png") center no-repeat;
+    background-size: cover;
+}
+.footer{
+    position: relative;
+    width: 37.5rem;
+    height: 27.55rem;
+    background: url("../images/footer.png") center no-repeat;
+    background-size: cover;
+}
+.footer .button{
+    position: absolute;
+    top: 12.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 13.85rem;
+    height: 5.6rem;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+
+/**/
+.wrap input{
+    opacity: 0;
+}
+.wrap span{
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url("../images/input1-1.png") center no-repeat;
+    background-size: cover;
+}
+
+/**/
+.footer input{
+    margin: 3.5rem 0 0 4rem;
+    width: 29rem;
+    height: 2.8rem;
+    font-size: 1.8rem;
+    border: none;
+    background: transparent;
+}
+.footer input:nth-child(2){
+    margin-top: 0.8rem;
+}
+
+/*遮罩*/
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=80);
+    background-color: #333;
+    z-index: 1002;
+    left: 0px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+/*弹窗*/
+.tc{
+    display: none;
+    position: fixed;
+    bottom: 15rem;
+    left: 3.525rem;
+    box-sizing: border-box;
+    padding-top: 3.75rem;
+    padding-left: 1.5rem;
+    width: 30.45rem;
+    height: 22.15rem;
+    text-align: center;
+    background: url("../images/tc_01.png") center no-repeat;
+    background-size: cover;
+    z-index: 99999;
+}
+.tc p{
+    width: 27.5rem;
+    font-size: 1.5rem;
+    color: #000000;
+    line-height: 2.8rem;
+}
+.tc span{
+    display: inline-block;
+    margin-bottom: -9rem;
+    margin-left: -1.5rem;
+    width: 13.85rem;
+    height: 4.4rem;
+    background: url("../images/tc-btn_05.png") center no-repeat;
+    background-size: cover;
+}
